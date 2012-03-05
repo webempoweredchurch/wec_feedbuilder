@@ -1,0 +1,23 @@
+  <div id="feedForm" class="textInput">
+    <tr>
+      <td><label for="tabName">name:</label></td>
+      <td><f:form.textbox id="tabName" value="{tab.name}" property="name" size="75" /></td>
+    </tr>
+    <tr>
+      <td><label for="tabName">type:</label></td>
+      <td>{tab.type}</td>
+    </tr>
+    <tr>
+      <td><label for="taburl">url:</label></td>
+      <td><f:form.textbox id="taburl" value="{tab.url}" property="url" size="75" /></td>
+    </tr>
+    <tr>
+      <td><label for="taburl">post url:</label></td>
+      <td><f:form.textbox id="taburl" value="{tab.posturl}" property="posturl" size="75" /></td>
+    </tr>
+    <tr>
+      <td><label for="tabBanner">Banner URL:</label></td>
+      <td><f:form.textbox id="tabBanner" value="{tab.banner}" property="banner" size="75" /></td>
+    </tr>
+    <tr><td colspan="2"><f:form.submit id="tabSubmit" class="submit" value="Save" /> <f:link.action action="index">- Cancel</f:link.action>
+  </div>

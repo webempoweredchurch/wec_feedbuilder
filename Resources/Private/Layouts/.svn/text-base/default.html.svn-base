@@ -1,0 +1,10 @@
+<f:be.container addCssFile="{f:uri.resource(path:'Styles/backend.css')}">
+<div id="typo3-docheader-row1">
+  <f:be.buttons.shortcut />
+</div>
+<div id="typo3-docheader-row2">
+</div>
+<div class="tx-wecfeedbuilder-pi1">
+	<f:render section="content" />
+</div>
+</f:be.container>

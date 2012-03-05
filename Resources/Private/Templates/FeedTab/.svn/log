@@ -1,0 +1,250 @@
+<modify-entry
+   name="create.html"
+   present-props=""
+   has-prop-mods="false"
+   has-props="false"/>
+<modify-entry
+   committed-rev="4"
+   committed-date="2010-08-13T05:30:38.941787Z"
+   name="create.html"
+   last-author="ckoehler"
+   uuid="2507e922-a69a-11df-8a8e-d55149836849"/>
+<modify-wcprop
+   name="create.html"
+   propname="svn:wc:ra_dav:version-url"
+   propval="/repos/wec_feedbuilder/!svn/ver/4/trunk/wec_feedbuilder/Resources/Private/Templates/FeedTab/create.html"/>
+<modify-entry
+   text-time="1970-01-01T00:00:00.000000Z"
+   name="create.html"
+   kind="file"
+   deleted="false"
+   working-size="-1"
+   absent="false"
+   revision="28"/>
+<cp-and-translate
+   dest="create.html"
+   name=".svn/tmp/text-base/create.html.svn-base"/>
+<mv
+   dest=".svn/text-base/create.html.svn-base"
+   name=".svn/tmp/text-base/create.html.svn-base"/>
+<readonly
+   name=".svn/text-base/create.html.svn-base"/>
+<modify-entry
+   name="create.html"
+   checksum="d41d8cd98f00b204e9800998ecf8427e"/>
+<modify-entry
+   name="create.html"
+   text-time="working"/>
+<modify-entry
+   name="create.html"
+   working-size="working"/>
+<modify-entry
+   name="toXML.html"
+   present-props=""
+   has-prop-mods="false"
+   has-props="false"/>
+<modify-entry
+   committed-rev="22"
+   committed-date="2010-12-29T21:20:07.924760Z"
+   name="toXML.html"
+   last-author="ckoehler"
+   uuid="2507e922-a69a-11df-8a8e-d55149836849"/>
+<modify-wcprop
+   name="toXML.html"
+   propname="svn:wc:ra_dav:version-url"
+   propval="/repos/wec_feedbuilder/!svn/ver/22/trunk/wec_feedbuilder/Resources/Private/Templates/FeedTab/toXML.html"/>
+<modify-entry
+   text-time="1970-01-01T00:00:00.000000Z"
+   name="toXML.html"
+   kind="file"
+   deleted="false"
+   working-size="-1"
+   absent="false"
+   revision="28"/>
+<cp-and-translate
+   dest="toXML.html"
+   name=".svn/tmp/text-base/toXML.html.svn-base"/>
+<mv
+   dest=".svn/text-base/toXML.html.svn-base"
+   name=".svn/tmp/text-base/toXML.html.svn-base"/>
+<readonly
+   name=".svn/text-base/toXML.html.svn-base"/>
+<modify-entry
+   name="toXML.html"
+   checksum="ccab436215e8b47a2eb86b205170e5ce"/>
+<modify-entry
+   name="toXML.html"
+   text-time="working"/>
+<modify-entry
+   name="toXML.html"
+   working-size="working"/>
+<modify-entry
+   name="toxml.html"
+   present-props=""
+   has-prop-mods="false"
+   has-props="false"/>
+<modify-entry
+   committed-rev="20"
+   committed-date="2010-12-29T16:51:13.298368Z"
+   name="toxml.html"
+   last-author="ckoehler"
+   uuid="2507e922-a69a-11df-8a8e-d55149836849"/>
+<modify-wcprop
+   name="toxml.html"
+   propname="svn:wc:ra_dav:version-url"
+   propval="/repos/wec_feedbuilder/!svn/ver/20/trunk/wec_feedbuilder/Resources/Private/Templates/FeedTab/toxml.html"/>
+<modify-entry
+   text-time="1970-01-01T00:00:00.000000Z"
+   name="toxml.html"
+   kind="file"
+   deleted="false"
+   working-size="-1"
+   absent="false"
+   revision="28"/>
+<cp-and-translate
+   dest="toxml.html"
+   name=".svn/tmp/text-base/toxml.html.svn-base"/>
+<mv
+   dest=".svn/text-base/toxml.html.svn-base"
+   name=".svn/tmp/text-base/toxml.html.svn-base"/>
+<readonly
+   name=".svn/text-base/toxml.html.svn-base"/>
+<modify-entry
+   name="toxml.html"
+   checksum="ccab436215e8b47a2eb86b205170e5ce"/>
+<modify-entry
+   name="toxml.html"
+   text-time="working"/>
+<modify-entry
+   name="toxml.html"
+   working-size="working"/>
+<modify-entry
+   name="edit.html"
+   present-props=""
+   has-prop-mods="false"
+   has-props="false"/>
+<modify-entry
+   committed-rev="21"
+   committed-date="2010-12-29T21:02:40.224567Z"
+   name="edit.html"
+   last-author="ckoehler"
+   uuid="2507e922-a69a-11df-8a8e-d55149836849"/>
+<modify-wcprop
+   name="edit.html"
+   propname="svn:wc:ra_dav:version-url"
+   propval="/repos/wec_feedbuilder/!svn/ver/21/trunk/wec_feedbuilder/Resources/Private/Templates/FeedTab/edit.html"/>
+<modify-entry
+   text-time="1970-01-01T00:00:00.000000Z"
+   name="edit.html"
+   kind="file"
+   deleted="false"
+   working-size="-1"
+   absent="false"
+   revision="28"/>
+<cp-and-translate
+   dest="edit.html"
+   name=".svn/tmp/text-base/edit.html.svn-base"/>
+<mv
+   dest=".svn/text-base/edit.html.svn-base"
+   name=".svn/tmp/text-base/edit.html.svn-base"/>
+<readonly
+   name=".svn/text-base/edit.html.svn-base"/>
+<modify-entry
+   name="edit.html"
+   checksum="5e622478234dc8dbc138513db07bfe43"/>
+<modify-entry
+   name="edit.html"
+   text-time="working"/>
+<modify-entry
+   name="edit.html"
+   working-size="working"/>
+<modify-entry
+   name="index.html"
+   present-props=""
+   has-prop-mods="false"
+   has-props="false"/>
+<modify-entry
+   committed-rev="27"
+   committed-date="2011-02-13T23:14:45.600997Z"
+   name="index.html"
+   last-author="ckoehler"
+   uuid="2507e922-a69a-11df-8a8e-d55149836849"/>
+<modify-wcprop
+   name="index.html"
+   propname="svn:wc:ra_dav:version-url"
+   propval="/repos/wec_feedbuilder/!svn/ver/27/trunk/wec_feedbuilder/Resources/Private/Templates/FeedTab/index.html"/>
+<modify-entry
+   text-time="1970-01-01T00:00:00.000000Z"
+   name="index.html"
+   kind="file"
+   deleted="false"
+   working-size="-1"
+   absent="false"
+   revision="28"/>
+<cp-and-translate
+   dest="index.html"
+   name=".svn/tmp/text-base/index.html.svn-base"/>
+<mv
+   dest=".svn/text-base/index.html.svn-base"
+   name=".svn/tmp/text-base/index.html.svn-base"/>
+<readonly
+   name=".svn/text-base/index.html.svn-base"/>
+<modify-entry
+   name="index.html"
+   checksum="f0599c5a7fe09231a5a1b56ad1b2a17d"/>
+<modify-entry
+   name="index.html"
+   text-time="working"/>
+<modify-entry
+   name="index.html"
+   working-size="working"/>
+<modify-entry
+   name="new.html"
+   present-props=""
+   has-prop-mods="false"
+   has-props="false"/>
+<modify-entry
+   committed-rev="26"
+   committed-date="2011-02-04T20:20:28.012620Z"
+   name="new.html"
+   last-author="ckoehler"
+   uuid="2507e922-a69a-11df-8a8e-d55149836849"/>
+<modify-wcprop
+   name="new.html"
+   propname="svn:wc:ra_dav:version-url"
+   propval="/repos/wec_feedbuilder/!svn/ver/26/trunk/wec_feedbuilder/Resources/Private/Templates/FeedTab/new.html"/>
+<modify-entry
+   text-time="1970-01-01T00:00:00.000000Z"
+   name="new.html"
+   kind="file"
+   deleted="false"
+   working-size="-1"
+   absent="false"
+   revision="28"/>
+<cp-and-translate
+   dest="new.html"
+   name=".svn/tmp/text-base/new.html.svn-base"/>
+<mv
+   dest=".svn/text-base/new.html.svn-base"
+   name=".svn/tmp/text-base/new.html.svn-base"/>
+<readonly
+   name=".svn/text-base/new.html.svn-base"/>
+<modify-entry
+   name="new.html"
+   checksum="f0f8410a7b88ebf0becd6b06e7232e71"/>
+<modify-entry
+   name="new.html"
+   text-time="working"/>
+<modify-entry
+   name="new.html"
+   working-size="working"/>
+<modify-entry
+   committed-rev="27"
+   committed-date="2011-02-13T23:14:45.600997Z"
+   name=""
+   last-author="ckoehler"
+   uuid="2507e922-a69a-11df-8a8e-d55149836849"/>
+<modify-wcprop
+   name=""
+   propname="svn:wc:ra_dav:version-url"
+   propval="/repos/wec_feedbuilder/!svn/ver/27/trunk/wec_feedbuilder/Resources/Private/Templates/FeedTab"/>

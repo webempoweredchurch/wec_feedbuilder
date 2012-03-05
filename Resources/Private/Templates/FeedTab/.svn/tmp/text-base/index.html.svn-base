@@ -1,0 +1,30 @@
+<f:layout name="default" />
+
+<f:section name="content">
+<table>
+  <tr><th>Name</th><th>Type</th><th>URL</th><th>Delete</th></tr>
+  <f:for each="{feeds}" as="feed">
+    <tr class="feed">
+      <td class="feedName">
+        <f:link.action action="edit" arguments="{tab : feed}">
+          {feed.name}
+        </f:link.action>
+      </td>
+      <td>
+        {feed.type}
+      </td>
+      <td>
+        {feed.url}
+      </td>
+      <td>
+        <f:link.action action="delete" arguments="{tab : feed}" onclick='return confirm("Delete?");'>Delete</f:link.action>
+      </td>
+    </tr>
+  </f:for>
+</table>
+  <f:form method="post" action="new" name="tab" object="{tab}" enctype="multipart/form-data">
+    <label for="type">Type</label>
+    <f:form.select property="classname" options="{types}" optionValueField="classname" optionLabelField="fullname" />
+    <f:form.submit value="Create new" />
+  </f:form>
+</f:section>

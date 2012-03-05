@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'wec_feedbuilder'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_wecfeedbuilder_domain_model_feedtab">Feed Tab</label>
+			<label index="tx_wecfeedbuilder_domain_model_feedtab.type">Type</label>
+			<label index="tx_wecfeedbuilder_domain_model_feedtab.url">Url</label>
+			<label index="tx_wecfeedbuilder_domain_model_feedtab.name">Name</label>
+			<label index="tx_wecfeedbuilder_domain_model_feedtab.posturl">Posturl</label>
+		</languageKey>
+	</data>
+</T3locallang>

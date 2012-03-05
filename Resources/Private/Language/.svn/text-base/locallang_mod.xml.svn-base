@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for module &quot;ViewBasedModule&quot; of extension MvcExtjsSamples</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<!--  Texts for TYPO3 Backend integration -->
+			<label index="mlang_tabs_tab">FeedBuilder</label>
+			<label index="mlang_labels_tabdescr">This module does nothing.</label>
+			<label index="mlang_labels_tablabel">View Based Module from MvcExtjsSamples</label>
+		</languageKey>
+	</data>
+</T3locallang>
+

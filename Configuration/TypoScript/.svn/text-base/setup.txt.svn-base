@@ -1,0 +1,93 @@
+iphonefeed = PAGE
+iphonefeed {
+  config {
+    disableAllHeaderCode = 1
+    additionalHeaders = Content-type:application/xml
+    xhtml_cleaning = 0
+    admPanel = 0
+  }
+  typeNum = 22325233
+  10 < tt_content.list.20.wecfeedbuilder_feedtab
+}
+
+plugin.tx_wecfeedbuilder.settings {
+}
+
+plugin.tx_wecfeedbuilder._CSS_DEFAULT_STYLE (
+	input.f3-form-error {
+		background-color:#FF9F9F;
+		border: 1px #FF0000 solid;
+	}
+
+	.tx-wecfeedbuilder-pi1 table {
+		border-collapse:separate;
+		border-spacing:10px;
+	}
+
+	.tx-wecfeedbuilder-pi1 table th {
+		font-weight:bold;
+	}
+
+	.tx-wecfeedbuilder-pi1 table td {
+		vertical-align:top;
+	}
+)
+
+config.tx_extbase.persistence.classes {
+	Tx_WecFeedbuilder_Domain_Model_FeedTab {
+		mapping {
+			recordType = Tx_WecFeedbuilder_Domain_Model_FeedTab
+		}
+		subclasses {
+      Tx_WecFeedbuilder_Domain_Model_BlogTab        = Tx_WecFeedbuilder_Domain_Model_BlogTab
+      Tx_WecFeedbuilder_Domain_Model_AboutTab       = Tx_WecFeedbuilder_Domain_Model_AboutTab
+      Tx_WecFeedbuilder_Domain_Model_AudioSermonTab = Tx_WecFeedbuilder_Domain_Model_AudioSermonTab
+      Tx_WecFeedbuilder_Domain_Model_NewsTab        = Tx_WecFeedbuilder_Domain_Model_NewsTab
+      Tx_WecFeedbuilder_Domain_Model_PrayerTab      = Tx_WecFeedbuilder_Domain_Model_PrayerTab
+      Tx_WecFeedbuilder_Domain_Model_VideoSermonTab = Tx_WecFeedbuilder_Domain_Model_VideoSermonTab
+      Tx_WecFeedbuilder_Domain_Model_WebsiteTab     = Tx_WecFeedbuilder_Domain_Model_WebsiteTab
+		}
+	}
+	Tx_WecFeedbuilder_Domain_Model_BlogTab {
+		mapping {
+			tableName = tx_wecfeedbuilder_domain_model_feedtab
+			recordType = Tx_WecFeedbuilder_Domain_Model_BlogTab
+		}
+	}
+	Tx_WecFeedbuilder_Domain_Model_AboutTab {
+		mapping {
+			tableName = tx_wecfeedbuilder_domain_model_feedtab
+			recordType = Tx_WecFeedbuilder_Domain_Model_AboutTab
+		}
+	}
+	Tx_WecFeedbuilder_Domain_Model_AudioSermonTab {
+		mapping {
+			tableName = tx_wecfeedbuilder_domain_model_feedtab
+			recordType = Tx_WecFeedbuilder_Domain_Model_AudioSermonTab
+		}
+	}
+	Tx_WecFeedbuilder_Domain_Model_NewsTab {
+		mapping {
+			tableName = tx_wecfeedbuilder_domain_model_feedtab
+			recordType = Tx_WecFeedbuilder_Domain_Model_NewsTab
+		}
+	}
+	Tx_WecFeedbuilder_Domain_Model_PrayerTab {
+		mapping {
+			tableName = tx_wecfeedbuilder_domain_model_feedtab
+			recordType = Tx_WecFeedbuilder_Domain_Model_PrayerTab
+		}
+	}
+	Tx_WecFeedbuilder_Domain_Model_VideoSermonTab {
+		mapping {
+			tableName = tx_wecfeedbuilder_domain_model_feedtab
+			recordType = Tx_WecFeedbuilder_Domain_Model_VideoSermonTab
+		}
+	}
+	Tx_WecFeedbuilder_Domain_Model_WebsiteTab {
+		mapping {
+			tableName = tx_wecfeedbuilder_domain_model_feedtab
+			recordType = Tx_WecFeedbuilder_Domain_Model_WebsiteTab
+		}
+	}
+}

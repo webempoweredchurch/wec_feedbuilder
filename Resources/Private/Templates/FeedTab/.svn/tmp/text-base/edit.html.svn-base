@@ -1,0 +1,13 @@
+{namespace wfb=Tx_WecFeedbuilder_ViewHelpers}
+<f:layout name="default" />
+<f:section name="content">
+<table>
+  <tr><th colspan="2">Edit Feed</th></tr>
+  <f:form name="tab" action="update" method="post" object="{tab}">
+  <div id="feedForm" class="textInput">
+    <wfb:renderPartialByType basePath="Tab/Form" type="{tab.type}" arguments="{tab : tab}" />
+    <f:form.hidden property="classname" />
+  </div>
+  </f:form>
+</table>
+</f:section>

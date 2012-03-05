@@ -1,0 +1,14 @@
+{namespace wfb=Tx_WecFeedbuilder_ViewHelpers}
+<f:layout name="default" />
+
+<f:section name="content">
+<ui:flashMessages />
+<f:render partial="formErrors" />
+<table>
+  <tr><th colspan="2">New Feed</th></tr>
+  <f:form name="tab" action="create{tab.type}" object="{tab}" method="post">
+    <wfb:renderPartialByType basePath="Tab/Form" type="{tab.type}" arguments="{tab : tab}" />
+    <f:form.hidden property="classname" />
+  </f:form>
+</table>
+</f:section>
